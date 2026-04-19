@@ -15,8 +15,8 @@ from byu_recruiting import (
 # -------------------------------
 # LOAD MODELS
 # -------------------------------
-hs_model = load_model('hs_model.pkl')
-transfer_model = load_model('transfer_jc_model.pkl')
+hs_model = load_model('models/hs_model.pkl')
+transfer_model = load_model('models/transfer_jc_model.pkl')
 
 # -------------------------------
 # LOAD DATA
