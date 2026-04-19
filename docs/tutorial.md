@@ -1,4 +1,6 @@
-# Tutorial: Using the BYU Commitment Predictor Package
+---
+title: Tutorial: Using the BYU Commitment Predictor Package
+---
 
 This tutorial walks through how to install and use the **BYU Commitment Predictor** package.
 
@@ -36,8 +38,8 @@ print(hs_data.head())
 Separate predictors and outcome:
 
 ```python
-X = hs_data.drop(columns="BYU")
-y = hs_data["BYU"]
+X = hs_data.drop(columns='BYU')
+y = hs_data['BYU']
 ```
 
 ---
@@ -152,5 +154,5 @@ model = load_model('hs_model.pkl')
 
 Explore the other pages for more details:
 
-* **functions.md** → full package reference
-* **dataset.md** → how the data was created
+* [Function Documentation](functions.md) → full package reference
+* [Dataset Construction](dataset.md) → how the data was created

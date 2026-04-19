@@ -1,0 +1,15 @@
+title: "BYU Recruiting Prediction Project"
+description: "This project predicts the probability that a football recruit will commit to BYU."
+theme: minima
+
+navbar_links:
+  - title: Home
+    url: /
+  - title: Functions Description
+    url: /functions.html
+  - title: Package Tutorial
+    url: /tutorial.html
+  - title: Creating the Dataset
+    url: /dataset.html
+
+github_username: brooke-seeley
