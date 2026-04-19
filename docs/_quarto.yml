@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "BYU Recruiting Prediction Project"
+  description: "This project predicts the probability that a football recruit will commit to BYU."
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.md
+      - text: "Functions Description"
+        href: functions.md
+      - text: "Package Tutorial"
+        href: tutorial.md
+      - text: "Creating the Dataset"
+        href: dataset.md
+        menu:
+          - text: "Top 247 Players"
+            href: notebooks/top_pages.qmd
+          - text: "Non-Top Players"
+            href: notebooks/non_top_pages.qmd
+          - text: "Calculating Distances"
+            href: notebooks/distance_calc.qmd
+    right:
+      - icon: github
+        href: https://github.com/brooke-seeley
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    code-fold: true
+    code-tools: true
+    css: styles.css
