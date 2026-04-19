@@ -2,8 +2,6 @@
 title: "BYU Recruiting Prediction Project"
 ---
 
-# BYU Recruiting Prediction Model
-
 Welcome! This project explores the factors that influence whether a football recruit commits to BYU. Using a custom-built dataset and machine learning models, the goal is to estimate the probability of commitment based on player characteristics.
 
 ---
@@ -56,7 +54,7 @@ This project uses:
 ---
 
 ### Live App
-Try the model app: [Streamlit App](your-link)
+Try the model app: [Streamlit App](https://byu-recruiting-model.streamlit.app)
 
 ### Source Code
 View the repository for creating the transfer dataset and models: [Final Project](https://github.com/brooke-seeley/final-project)
