@@ -41,7 +41,7 @@ st.title('BYU Commitment Predictor')
 # -------------------------------
 page = st.sidebar.selectbox(
     'Select Page',
-    ['Prediction Tool', 'Model Insights', 'Data Insights']
+    ['Prediction Tool', 'Data Insights']
 )
 
 # ===============================
@@ -183,52 +183,7 @@ if page == 'Prediction Tool':
             st.error('Low likelihood')
 
 # ===============================
-# PAGE 2: MODEL INSIGHTS
-# ===============================
-elif page == 'Model Insights':
-
-    st.header('Prediction Model Insights')
-
-    st.write("""
-    This page provides a look into how the model makes decisions.
-    """)
-
-    st.subheader('Feature Importance (High School Model)')
-
-    try:
-        from sklearn.inspection import permutation_importance
-        import matplotlib.pyplot as plt
-
-        model = hs_model
-
-        result = permutation_importance(
-            model,
-            X_hs,
-            y_hs,
-            n_repeats=5,
-            random_state=123,
-            n_jobs=-1
-        )
-
-        fig, ax = plt.subplots()
-        ax.barh(range(len(result.importances_mean)), result.importances_mean)
-        ax.set_title("Permutation Feature Importance")
-
-        st.pyplot(fig)
-
-    except:
-        st.info('Feature importance not available for this model.')
-
-    st.subheader('How to Interpret Predictions')
-
-    st.write("""
-    - Values closer to 1 indicate a higher likelihood of committing to BYU  
-    - Values closer to 0 indicate a lower likelihood  
-    - The model is trained on historical recruiting data including geography, ratings, and player background  
-    """)
-
-# ===============================
-# PAGE 3: DATA INSIGHTS
+# PAGE 2: DATA INSIGHTS
 # ===============================
 
 elif page == 'Data Insights':

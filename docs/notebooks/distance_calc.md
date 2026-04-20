@@ -62,5 +62,3 @@ distances.to_csv('distances.csv', index=False)
 ## Conclusion
 
 Calculating distances in this way was so much easier than what I did for the high school dataset. And, since I used latitude and longitude directly, the distance calculations were more precise than that website. I will definitely be using the `geopy` package again in the future!
-
-Head back home: [Home](index.md)

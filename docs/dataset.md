@@ -29,19 +29,19 @@ The following pages document how I did each step in detail:
 
 ### 1. Top 247 Players  
 Scraping the main ranking lists and building the foundation of the dataset  
-- [Top 247 Scraping](notebooks/top_pages.md)
+- [Top 247 Scraping](./notebooks/top_pages.md)
 
 ---
 
 ### 2. Non-Top Players  
 Extending the dataset by identifying players outside the top rankings using position-based scraping  
-- [Non-Top Player Scraping](notebooks/non_top_pages.md)
+- [Non-Top Player Scraping](./notebooks/non_top_pages.md)
 
 ---
 
 ### 3. Distance Feature Engineering  
 Calculating geographic distance using latitude and longitude coordinates  
-- [Distance Calculation](notebooks/distance_calc.md)
+- [Distance Calculation](./notebooks/distance_calc.md)
 
 ---
 

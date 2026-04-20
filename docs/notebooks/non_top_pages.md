@@ -132,4 +132,4 @@ Finally, I converted this to a `pandas` dataframe, changed the height to inches,
 
 Scraping in this way was so fun to build, and I felt proud of myself for finding the position key pattern. It solved this problem of going to each player's page over and over, instead giving me all of the data I needed in one `for` loop.
 
-Next, check out [Distance Calculation](notebooks/distance_calc.md)
+Next, check out [Distance Calculation](./distance_calc.md)
