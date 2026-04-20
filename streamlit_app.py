@@ -22,8 +22,8 @@ transfer_model = load_model('models/transfer_jc_model.pkl')
 # LOAD DATA
 # -------------------------------
 
-X_hs, y_hs, _ = load_hs_data('data\RecruitmentPrediction.xlsx')
-X_tr, y_tr, _ = load_transfer_data('data\RecruitmentPrediction.xlsx')
+X_hs, y_hs, _ = load_hs_data('data/RecruitmentPrediction.xlsx')
+X_tr, y_tr, _ = load_transfer_data('data/RecruitmentPrediction.xlsx')
 
 # Combine back into DataFrames for plotting
 hs_data = X_hs.copy()

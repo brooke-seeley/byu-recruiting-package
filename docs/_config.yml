@@ -1,10 +1,17 @@
 title: "BYU Recruiting Prediction Project"
 description: "This project predicts the probability that a football recruit will commit to BYU."
-theme: minima
 
-header_pages:
-  - index.md
-  - functions.md
-  - tutorial.md
+remote_theme: just-the-docs/just-the-docs
 
-github_username: brooke-seeley
+aux_links:
+  GitHub: https://github.com/brooke-seeley
+
+nav:
+  - Home: index.md
+  - Functions Description: functions.md
+  - Package Tutorial: tutorial.md
+  - Dataset Building:
+      - Overview: dataset.md
+      - Top 247 Scraping: notebooks/top_pages.md
+      - Non-Top 247 Scraping: notebooks/non_top_pages.md
+      - Distance Calculations: notebooks/distance_calc.md

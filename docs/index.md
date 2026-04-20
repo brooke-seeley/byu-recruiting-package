@@ -1,5 +1,5 @@
 ---
-title: "BYU Recruiting Prediction Project"
+title: 'Home'
 ---
 
 Welcome! This project explores the factors that influence whether a football recruit commits to BYU. Using a custom-built dataset and machine learning models, the goal is to estimate the probability of commitment based on player characteristics.

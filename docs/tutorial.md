@@ -1,5 +1,5 @@
 ---
-title: Tutorial: Using the BYU Commitment Predictor Package
+title: 'Tutorial: Using the BYU Commitment Predictor Package'
 ---
 
 This tutorial walks through how to install and use the **BYU Commitment Predictor** package.
