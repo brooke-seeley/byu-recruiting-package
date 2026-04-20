@@ -25,7 +25,7 @@ The project includes:
 byu_recruiting-package/
 │
 ├── app/
-│   └── streamlit_app.py   # Interactive app
+│   └── 
 │
 ├── byu_recruiting/        # Python package
 │   ├── __init__.py
@@ -50,6 +50,10 @@ byu_recruiting-package/
 ├── models/
 │   ├── hs_model.pkl
 │   └── transfer_jc_model.pkl
+│
+├── requirements.txt # Requirements for app
+│
+├── streamlit_app.py   # Interactive app
 │
 └── README.md
 

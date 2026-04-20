@@ -97,3 +97,5 @@ for page in range(1, 6):
 ```
 
 The rest of the process was just like with the tranfer data. I converted it to a `pandas` dataframe, sorted and exported as a .csv file, and compared it to the list I already had before filling in `247Top`.
+
+Next, check out [Non-Top Player Scraping](notebooks\non_top_pages.md)

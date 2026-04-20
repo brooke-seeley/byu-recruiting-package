@@ -1,0 +1,7 @@
+streamlit
+pandas
+scikit-learn
+imblearn
+joblib
+openpyxl
+matplotlib
