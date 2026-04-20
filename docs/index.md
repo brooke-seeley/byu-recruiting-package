@@ -59,6 +59,8 @@ Try the model app: [Streamlit App](https://byu-recruiting-model.streamlit.app)
 
 ### Source Code
 
-- View the repository for creating the transfer dataset and models: [Final Project](https://github.com/brooke-seeley/final-project)
-- View the repository for this website and app: [BYU Recruiting Package](https://github.com/brooke-seeley/byu-recruiting-package)
-- View the repository for my work on this project last semester: [Football](https://github.com/brooke-seeley/Football)
+* View the repository for creating the transfer dataset and models: [Final Project](https://github.com/brooke-seeley/final-project)
+
+* View the repository for this website and app: [BYU Recruiting Package](https://github.com/brooke-seeley/byu-recruiting-package)
+
+* View the repository for my work on this project last semester: [Football](https://github.com/brooke-seeley/Football)
