@@ -196,16 +196,24 @@ elif page == 'Model Insights':
     st.subheader('Feature Importance (High School Model)')
 
     try:
+        from sklearn.inspection import permutation_importance
         import matplotlib.pyplot as plt
 
-        model = hs_model.named_steps['model']
-        importances = model.feature_importances_
+        model = hs_model
 
-        st.write('Top features influencing predictions:')
+        result = permutation_importance(
+            model,
+            X_hs,
+            y_hs,
+            n_repeats=5,
+            random_state=123,
+            n_jobs=-1
+        )
 
         fig, ax = plt.subplots()
-        ax.barh(range(len(importances)), importances)
-        ax.set_title('Feature Importance')
+        ax.barh(range(len(result.importances_mean)), result.importances_mean)
+        ax.set_title("Permutation Feature Importance")
+
         st.pyplot(fig)
 
     except:
