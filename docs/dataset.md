@@ -1,5 +1,7 @@
 ---
-title: 'Dataset Construction'
+title: "Dataset Construction"
+nav_order: 4
+has_children: true
 ---
 
 This project uses a custom-built dataset of football recruits to model the probability of committing to BYU. Since no single source contained all necessary information, I assembled the dataset by combining multiple scraping and feature engineering steps.

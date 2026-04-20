@@ -5,13 +5,3 @@ remote_theme: just-the-docs/just-the-docs
 
 aux_links:
   GitHub: https://github.com/brooke-seeley
-
-nav:
-  - Home: index.md
-  - Functions Description: functions.md
-  - Package Tutorial: tutorial.md
-  - Dataset Building:
-      - Overview: dataset.md
-      - Top 247 Scraping: notebooks/top_pages.md
-      - Non-Top 247 Scraping: notebooks/non_top_pages.md
-      - Distance Calculations: notebooks/distance_calc.md

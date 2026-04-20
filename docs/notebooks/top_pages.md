@@ -1,5 +1,7 @@
 ---
 title: 'Scraping Top 247 Lists'
+parent: "Dataset Building"
+nav_order: 1
 ---
 
 One of the variables in my dataset is called `247Top`. Its values are `Y` for being in the top 247 players for that year according to [247Sports](https://247sports.com) in their respective categories (High School, Junior College, Transfer Portal), and `N` if they were not on that list.

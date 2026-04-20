@@ -1,6 +1,7 @@
 ---
 title: 'Calculating Distance Between Previous Colleges & BYU'
-nav_exclude: true
+parent: "Dataset Building"
+nav_order: 3
 ---
 
 As one of the variables of the dataset, I calculated distance (in miles) between the players' previous schools to BYU. I used this variable in the high school dataset, but calculating the distances involved me using a webpage over and over again. 

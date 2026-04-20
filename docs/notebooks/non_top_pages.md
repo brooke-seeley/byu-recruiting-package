@@ -1,5 +1,7 @@
 ---
 title: 'Scraping Players NOT on Top 247 Lists'
+parent: "Dataset Building"
+nav_order: 2
 ---
 
 This was one of the more interesting scraping challenges as part of this project. I still wanted to grab the same info that I did for the top 247 players (height, weight, composite score), but there was not one simple page I could scrape that from.
